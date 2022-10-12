@@ -1,0 +1,14 @@
+.gradle/
+build/
+
+# Properties
+local.properties
+keystore.properties
+# Idea
+.idea/
+.idea/*
+.idea
+**/*.iml
+
+# Mac OS
+.DS_Store

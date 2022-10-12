@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StraightLayout">
+        <attr name="android:orientation" format="enum">
+            <enum name="HORIZONTAL" value="0"/>
+            <enum name="VERTICAL" value="1" />
+        </attr>
+        <attr name="android:weightSum" format="float"/>
+        <attr name="android:layout_weight" format="float"/>
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+    </declare-styleable>
+</resources>
